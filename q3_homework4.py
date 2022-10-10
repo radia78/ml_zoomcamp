@@ -1,8 +1,8 @@
 import pickle
 
 # Load the model and dict-vectorizer
-model_file = '../model1.bin'
-dv_file = '../dv.bin'
+model_file = 'model1.bin'
+dv_file = 'dv.bin'
 
 
 with open(model_file, 'rb') as model_in, open(dv_file, 'rb') as dv_in:
