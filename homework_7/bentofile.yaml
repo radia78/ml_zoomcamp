@@ -1,0 +1,9 @@
+service: "hw7_service_sklearn.py:svc"
+labels:
+  owner: Radi Akbar
+  project: Homework_7
+include:
+  - "*.py"
+python:
+  packages:
+    - "scikit-learn==1.1.1"
