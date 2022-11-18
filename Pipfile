@@ -15,6 +15,10 @@ matplotlib = "*"
 bentoml = "*"
 pydantic = "*"
 locust = "*"
+pandas-datareader = "*"
+seaborn = "*"
+optuna = "*"
+plotly = "*"
 
 [dev-packages]
 
